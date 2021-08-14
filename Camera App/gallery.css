@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.media-div{
+    
+height: 226px;
+    
+width: 181px;
+
+background-color: silver;
+    
+/* object-fit: cover; */
+    
+border: 2px solid lightgray;
+}
+.media-img{
+
+/* object-fit: cover; */
+
+height: 80%;
+
+width: 100%;
+}
+.options{
+
+display: flex;
+
+align-items: center;
+
+/* justify-content: center; */
+
+justify-content: space-between;
+
+height: 20%;
+}
+.download{
+
+align-items: center;
+
+/* width: 20px; */
+
+display: flex;
+
+width: min-content;
+
+background-color: thistle;
+
+height: 70%;
+
+text-align: center;
+
+padding: 5px;
+
+border-radius: 4px;
+
+margin: 2px;
+cursor:pointer;
+}
+.delete{
+
+width: 66.6px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+background-color: red;
+
+height: 70%;
+
+border-radius: 4px;
+
+margin: 2px;
+cursor:pointer;
+}
+.media-vid{
+    object-fit: cover;
+    height:80%;
+    width:100%;
+}
+.back-btn{
+    position: fixed;
+    top: 84vh;
+    right: 10vh;
+    width: 60px;
+    height: 60px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    cursor:pointer;
+
+}

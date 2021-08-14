@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.video-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.controls {
+    position: absolute;
+    top: 11vh;
+    right: 5vw;
+    /* border: 1px solid red; */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 160px;
+    align-items: center;
+    z-index: 2;
+}
+
+#record {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.inner-record {
+    height: 70%;
+    width: 70%;
+    background: red;
+    border-radius: 50%;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+#capture {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.inner-capture {
+    height: 70%;
+    width: 70%;
+    background: white;
+    border-radius: 50%;
+}
+
+.controls>div {
+    width: 50%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-container {
+    position: absolute;
+    z-index: 2;
+    top: 16vh;
+    left: 5vw;
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.filters {
+    /* height: 71px; */
+    /* width: 10px; */
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.filter {
+    background-image: url("https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: contain;
+    height: 78px;
+    background-blend-mode: soft-light;
+    width: 105px;
+    border: 1.5px solid white;
+}
+
+.filter-div {
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.zoom {
+    display: flex;
+    flex-direction: column;
+}
+
+.zoom div {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: black; */
+    width: 100%;
+}
+
+.fas {
+    font-size: 1.5rem;
+    color: white;
+}
+.gallery-btn {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
